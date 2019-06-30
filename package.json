@@ -17,7 +17,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "node prepush.js",
-      "pre-push": "node prepush.js"
+      "prepush": "node prepush.js"
     }
   },
   "eslintConfig": {
