@@ -16,7 +16,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo eat shit man!!!"
+      "pre-commit": "echo eat shit man!!!",
+      "pre-push": "node prepush.js"
     }
   },
   "eslintConfig": {
